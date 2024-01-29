@@ -1,0 +1,92 @@
+
+h3{
+  color: rgb(34, 160, 93);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.todos-text
+{
+  display: flex;
+  position: fixed;
+  
+  
+}
+.Todo-Input{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Todo-Name{
+  height: 9px;
+  margin-right: 10px;
+  width: 300px;
+  outline: 1 px solid rgb(88, 225, 88) ;
+}
+.Todo-Description{
+  height: 9px;
+  margin-left: 10px;
+  width: 300px;
+  outline: 1 px solid rgb(88, 225, 88) ;
+}
+.Primarybtn
+{
+  
+  height: 30px;
+  width: 250px;
+  background-color: rgb(38, 167, 77);
+ text-align: center;
+ border-radius: 10px;
+ border: none;
+ color: white;
+}
+.todo-container
+{
+  display: flex;
+  
+  margin-top: 30px;
+  
+}
+option,select{
+  background-color: rgb(245, 137, 155);
+  width: 60px;
+  height: 50px;
+  margin-right: 10px;
+  outline: none;
+}
+.todo-list{
+  display:flex;
+  width: 100% px;
+  height: auto;
+  justify-content: space-around;
+  padding: 20px;
+  column-gap: 20px;
+  margin-top: 60px;
+
+}
+.todo-store{
+  
+  
+ 
+  height: 220px;
+  width: 400px;
+  background-color: rgb(11, 227, 11);
+  color: black;
+  
+  
+}
+.my-todos{
+  text-align: left;
+}
+select,label{
+  text-align: right;
+  
+}
+h1,p{
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+
+}
+
